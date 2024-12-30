@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="./Estilos/Style.css">
+        <title>Contacto</title>
+    </head>
+<body>
+    <h2 class="Formulariodecontacto">Formulario de contacto</h2>
+    <form  action="https://formspree.io/<USER_ID>" method="POST">
+        <div class="form-group">
+            <label for="email"> Correo Electronico</label>
+            <input type="email" class="form-control" id="email" placeholder="nameexample.com">
+        </div>
+        <div class="form-group">
+            <label for="select">Select</label>
+            <select class="form-control" id="select">
+                <option>Consultar por producto|</option>
+                <option>Consultar Veterinario/a</option>
+                <option>Emplreos</option>
+            </select>
+        </div>
+        <div class="form-group">
+
+            <label for="comment"></label>
+            <textarea class="form-control" id="comment" rows="3"></textarea>
+        </div>
+        <button type="submit" class="EnviarFormulario">Enviar formulario</button>
+    
+    </form>  
+</body>
+</html>
